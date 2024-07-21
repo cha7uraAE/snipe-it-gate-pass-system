@@ -1,0 +1,9 @@
+.vscode
+proj
+__pycache__
+app/common/__pycache__
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

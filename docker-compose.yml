@@ -1,0 +1,13 @@
+version: "1"
+
+services:
+  app:
+    image: gate-pass-aet
+    container_name: gate-pass-aet
+    podocs: 
+    - 8501:80
+    build: 
+      dockerfile: ./Dockerfile
+      context: .
+    volumes:
+    - ./app:/usr/app/src
