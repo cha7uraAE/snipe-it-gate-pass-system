@@ -14,8 +14,8 @@ A Streamlit application for generating gate passes based on hardware data from a
 
 1. Clone the repository:
   ```sh
-  git clone https://github.com/cha7uraAE/gate-pass-generator.git
-  cd gate-pass-generator
+  git clone https://github.com/cha7uraAE/snipe-it-gate-pass-system.git
+  cd snipe-it-gate-pass-system
   ```
 2. Create and activate a virtual environment:
   ```sh
@@ -37,16 +37,16 @@ A Streamlit application for generating gate passes based on hardware data from a
 1. Clone the repository:
 
   ```sh
-  git clone https://github.com/cha7uraAE/gate-pass-generator.git
-  cd gate-pass-generator
+  git clone https://github.com/cha7uraAE/snipe-it-gate-pass-system.git
+  cd snipe-it-gate-pass-system
   ```
 2. Build the Docker image:
   ```sh
-  docker build -t gate-pass-generator .
+  docker build -t snipe-it-gate-pass-system .
   ```
 3. Run the Docker container:
   ```sh
-  docker run -p 8501:8501 gate-pass-generator
+  docker run -p 8501:8501 snipe-it-gate-pass-system
   ```
 4. Open your web browser and go to http://localhost:8501.
 
